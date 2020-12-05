@@ -11,7 +11,7 @@
         android:id="@+id/fragment"
         android:name="androidx.navigation.fragment.NavHostFragment"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
+        android:layout_height="0dp"
         android:layout_weight="1"
         app:defaultNavHost="true"
         app:navGraph="@navigation/nav" />
@@ -20,8 +20,6 @@
         android:id="@+id/nav"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        app:menu="@menu/menu">
-
-    </com.google.android.material.bottomnavigation.BottomNavigationView>
+        app:menu="@menu/menu" />
 
 </LinearLayout>
