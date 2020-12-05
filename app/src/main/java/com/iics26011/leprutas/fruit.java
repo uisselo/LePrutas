@@ -1,6 +1,7 @@
 package com.iics26011.leprutas;
 
-import androidx.room.*;
+import androidx.room.Entity;
+import androidx.room.PrimaryKey;
 
 @Entity(tableName = "fruit_table")
 public class fruit {
@@ -12,6 +13,16 @@ public class fruit {
     private String name, sciName, desc, benefits, trivia;
 
     private boolean isLiked;
+
+    public fruit(int image, String name, String sciName, String desc, String benefits, String trivia) {
+        this.image = image;
+        this.name = name;
+        this.sciName = sciName;
+        this.desc = desc;
+        this.benefits = benefits;
+        this.trivia = trivia;
+        this.isLiked = false;
+    }
 
     public int getId() {
         return id;
@@ -75,15 +86,5 @@ public class fruit {
 
     public void setLiked(boolean liked) {
         isLiked = liked;
-    }
-
-    public fruit(int image, String name, String sciName, String desc, String benefits, String trivia) {
-        this.image = image;
-        this.name = name;
-        this.sciName = sciName;
-        this.desc = desc;
-        this.benefits = benefits;
-        this.trivia = trivia;
-        this.isLiked = false;
     }
 }

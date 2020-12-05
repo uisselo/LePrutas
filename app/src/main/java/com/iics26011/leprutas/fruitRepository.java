@@ -8,8 +8,9 @@ import java.util.List;
 
 public class fruitRepository {
 
-    private fruitDAO fruitDAO;
-    private LiveData<List<fruit>> fruits, likedFruits;
+    private final fruitDAO fruitDAO;
+    private final LiveData<List<fruit>> fruits;
+    private final LiveData<List<fruit>> likedFruits;
 
     fruitRepository(Application application) {
         fruitDatabase db = fruitDatabase.getDatabase(application);
@@ -21,7 +22,10 @@ public class fruitRepository {
     LiveData<List<fruit>> getFruits() {
         return fruits;
     }
-    LiveData<List<fruit>> getLikedFruits() { return likedFruits; }
+
+    LiveData<List<fruit>> getLikedFruits() {
+        return likedFruits;
+    }
 
     void insert(fruit fruit) {
         fruitDatabase.databaseWriteExecutor.execute(() -> {
