@@ -4,8 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity"
-    android:orientation="vertical">
+    android:orientation="vertical"
+    tools:context=".MainActivity">
 
     <fragment
         android:id="@+id/fragment"
@@ -14,7 +14,7 @@
         android:layout_height="match_parent"
         android:layout_weight="1"
         app:defaultNavHost="true"
-        app:navGraph="@navigation/nav"/>
+        app:navGraph="@navigation/nav" />
 
     <com.google.android.material.bottomnavigation.BottomNavigationView
         android:id="@+id/nav"
