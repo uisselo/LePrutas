@@ -31,6 +31,7 @@ public class fruitPage extends AppCompatActivity {
         trv2 = findViewById(R.id.trv2);
         btnLike = findViewById(R.id.btnLike);
 
+        img.setImageResource(f.getImage());
         name.setText(f.getName());
         sciName.setText(f.getSciName());
         desc.setText(f.getDesc());
