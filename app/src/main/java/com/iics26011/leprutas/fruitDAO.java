@@ -15,10 +15,10 @@ public interface fruitDAO {
     @Insert(onConflict = OnConflictStrategy.IGNORE)
     void insert(fruit fruit);
 
-    @Query("SELECT * FROM fruit_table ORDER BY name ASC")
+    @Query("SELECT * FROM fruit_table")
     LiveData<List<fruit>> getFruits();
 
-    @Query("SELECT * FROM fruit_table WHERE isLiked ORDER BY name ASC")
+    @Query("SELECT * FROM fruit_table WHERE isLiked")
     LiveData<List<fruit>> getLikedFruits();
 
     @Update
