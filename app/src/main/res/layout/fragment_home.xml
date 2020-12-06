@@ -19,9 +19,9 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Welcome to Le Fruit"
-            android:textSize="20sp"
-            android:textStyle="bold"
+            android:text="Welcome to Le Prutas"
+            android:textSize="30sp"
+            android:fontFamily="@font/nunito_bold"
             android:textColor="#080808"
             android:layout_marginHorizontal="30dp"/>
 
@@ -81,7 +81,7 @@
                         android:text="Tangerine"
                         android:textColor="#080808"
                         android:textSize="18sp"
-                        android:textStyle="bold"/>
+                        android:fontFamily="@font/nunito_bold"/>
 
                     <TextView
                         android:layout_width="fill_parent"
@@ -102,7 +102,7 @@
             android:text="More Options for You"
             android:layout_marginTop="10dp"
             android:textSize="20sp"
-            android:textStyle="bold"
+            android:fontFamily="@font/nunito_bold"
             android:textColor="#080808"
             android:layout_marginHorizontal="30dp"/>
 

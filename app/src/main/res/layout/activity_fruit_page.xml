@@ -39,7 +39,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:textSize="30sp"
-                android:textStyle="bold"
+                android:fontFamily="@font/nunito_bold"
                 android:textColor="#080808"
                 android:layout_alignParentLeft="true"/>
 
@@ -58,7 +58,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:textSize="20dp"
-            android:textStyle="italic"
+            android:fontFamily="@font/nunito_italic"
             android:textColor="#080808"/>
 
         <TextView
@@ -74,7 +74,7 @@
             android:layout_height="wrap_content"
             android:text="Health Benefits"
             android:textSize="20sp"
-            android:textStyle="bold"
+            android:fontFamily="@font/nunito_bold"
             android:textColor="#080808"
             android:layout_marginTop="20dp"
             android:layout_marginBottom="10dp"/>
@@ -84,25 +84,29 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:textSize="18sp"
-            android:textColor="#080808"/>
+            android:textColor="#080808"
+            android:layout_marginBottom="3dp"/>
         <TextView
             android:id="@+id/hb2"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:textSize="18sp"
-            android:textColor="#080808"/>
+            android:textColor="#080808"
+            android:layout_marginBottom="3dp"/>
         <TextView
             android:id="@+id/hb3"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:textSize="18sp"
-            android:textColor="#080808"/>
+            android:textColor="#080808"
+            android:layout_marginBottom="3dp"/>
         <TextView
             android:id="@+id/hb4"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:textSize="18sp"
-            android:textColor="#080808"/>
+            android:textColor="#080808"
+            android:layout_marginBottom="3dp"/>
         <TextView
             android:id="@+id/hb5"
             android:layout_width="wrap_content"
@@ -115,7 +119,7 @@
             android:layout_height="wrap_content"
             android:text="Trivia"
             android:textSize="20sp"
-            android:textStyle="bold"
+            android:fontFamily="@font/nunito_bold"
             android:textColor="#080808"
             android:layout_marginTop="20dp"
             android:layout_marginBottom="10dp"/>
@@ -125,7 +129,8 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:textSize="18sp"
-            android:textColor="#080808"/>
+            android:textColor="#080808"
+            android:layout_marginBottom="3dp"/>
         <TextView
             android:id="@+id/trv2"
             android:layout_width="wrap_content"
