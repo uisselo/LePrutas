@@ -34,7 +34,7 @@ public class MainActivity extends AppCompatActivity {
         super.onActivityResult(requestCode, resultCode, data);
 
         if (requestCode == UPDATE_FRUIT_ACTIVITY_REQUEST_CODE && resultCode == RESULT_OK) {
-//            fruitViewModel.update();
+            // fruitViewModel.update();
         }
     }
 }
