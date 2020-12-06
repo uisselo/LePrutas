@@ -24,8 +24,7 @@
             <ImageView
                 android:id="@+id/img"
                 android:layout_width="350dp"
-                android:layout_height="350dp"
-                android:src="@drawable/durian"/>
+                android:layout_height="350dp" />
 
         </com.google.android.material.card.MaterialCardView>
 
