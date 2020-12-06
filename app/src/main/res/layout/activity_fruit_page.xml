@@ -38,7 +38,6 @@
                 android:id="@+id/name"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Dragon Fruit"
                 android:textSize="30sp"
                 android:textStyle="bold"
                 android:textColor="#080808"
@@ -58,7 +57,6 @@
             android:id="@+id/sciName"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Hylocereus cactus"
             android:textSize="20dp"
             android:textStyle="italic"
             android:textColor="#080808"/>
@@ -67,7 +65,6 @@
             android:id="@+id/desc"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Also known as pitaya or the strawberry pear. The Dragon Fruit is a beautiful tropical fruit that tastes sweet and has a crunchy texture. Though it may look intimidating with its pinkish red skin and light green scales, preparing this unusual fruit is easy. You can enjoy eating it in fruit salads, it can be used to create tasty drinks and desserts, and it is a wonderful, healthy snack on its own."
             android:textSize="18sp"
             android:textColor="#080808"
             android:layout_marginTop="10dp"/>
@@ -86,35 +83,30 @@
             android:id="@+id/hb1"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Hylocereus cactus"
             android:textSize="18sp"
             android:textColor="#080808"/>
         <TextView
             android:id="@+id/hb2"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Hylocereus cactus"
             android:textSize="18sp"
             android:textColor="#080808"/>
         <TextView
             android:id="@+id/hb3"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Hylocereus cactus"
             android:textSize="18sp"
             android:textColor="#080808"/>
         <TextView
             android:id="@+id/hb4"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Hylocereus cactus"
             android:textSize="18sp"
             android:textColor="#080808"/>
         <TextView
             android:id="@+id/hb5"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Hylocereus cactus"
             android:textSize="18sp"
             android:textColor="#080808"/>
 
@@ -132,14 +124,12 @@
             android:id="@+id/trv1"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Hylocereus cactus"
             android:textSize="18sp"
             android:textColor="#080808"/>
         <TextView
             android:id="@+id/trv2"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Hylocereus cactus"
             android:textSize="18sp"
             android:textColor="#080808"/>
 

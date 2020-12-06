@@ -13,17 +13,22 @@ public class fruit implements Serializable {
     private int id;
 
     private int image;
-    private String name, sciName, desc, benefits, trivia;
+    private String name, sciName, desc, hb1, hb2, hb3, hb4, hb5, trv1, trv2;
 
     private boolean isLiked;
 
-    public fruit(int image, String name, String sciName, String desc, String benefits, String trivia) {
-        this.image = image;
-        this.name = name;
-        this.sciName = sciName;
-        this.desc = desc;
-        this.benefits = benefits;
-        this.trivia = trivia;
+    public fruit() {
+        this.image = 0;
+        this.name = null;
+        this.sciName = null;
+        this.desc = null;
+        this.hb1 = null;
+        this.hb2 = null;
+        this.hb3 = null;
+        this.hb4 = null;
+        this.hb5 = null;
+        this.trv1 = null;
+        this.trv2 = null;
         this.isLiked = false;
     }
 
@@ -67,20 +72,60 @@ public class fruit implements Serializable {
         this.desc = desc;
     }
 
-    public String getBenefits() {
-        return benefits;
+    public String getHb1() {
+        return hb1;
     }
 
-    public void setBenefits(String benefits) {
-        this.benefits = benefits;
+    public void setHb1(String hb1) {
+        this.hb1 = hb1;
     }
 
-    public String getTrivia() {
-        return trivia;
+    public String getHb2() {
+        return hb2;
     }
 
-    public void setTrivia(String trivia) {
-        this.trivia = trivia;
+    public void setHb2(String hb2) {
+        this.hb2 = hb2;
+    }
+
+    public String getHb3() {
+        return hb3;
+    }
+
+    public void setHb3(String hb3) {
+        this.hb3 = hb3;
+    }
+
+    public String getHb4() {
+        return hb4;
+    }
+
+    public void setHb4(String hb4) {
+        this.hb4 = hb4;
+    }
+
+    public String getHb5() {
+        return hb5;
+    }
+
+    public void setHb5(String hb5) {
+        this.hb5 = hb5;
+    }
+
+    public String getTrv1() {
+        return trv1;
+    }
+
+    public void setTrv1(String trv1) {
+        this.trv1 = trv1;
+    }
+
+    public String getTrv2() {
+        return trv2;
+    }
+
+    public void setTrv2(String trv2) {
+        this.trv2 = trv2;
     }
 
     public boolean isLiked() {

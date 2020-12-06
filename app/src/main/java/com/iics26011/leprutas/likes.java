@@ -75,7 +75,8 @@ public class likes extends Fragment {
         final fruitListAdapter adapter = new fruitListAdapter(view.getContext());
         adapter.setHasStableIds(true);
         recyclerView.setAdapter(adapter);
-        recyclerView.setLayoutManager(new GridLayoutManager(view.getContext(), 2));
+        recyclerView.setLayoutManager(new GridLayoutManager(view.getContext(), 3));
+        recyclerView.setNestedScrollingEnabled(false);
 
         MainActivity.fruitViewModel = new ViewModelProvider(this).get(fruitViewModel.class);
 

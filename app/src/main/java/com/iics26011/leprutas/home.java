@@ -74,6 +74,7 @@ public class home extends Fragment {
         adapter.setHasStableIds(true);
         recyclerView.setAdapter(adapter);
         recyclerView.setLayoutManager(new GridLayoutManager(view.getContext(), 3));
+        recyclerView.setNestedScrollingEnabled(false);
 
         MainActivity.fruitViewModel = new ViewModelProvider(this).get(fruitViewModel.class);
 
