@@ -25,6 +25,13 @@
             android:textColor="#080808"
             android:layout_marginHorizontal="30dp"/>
 
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/recyclerview"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="15dp"
+            tools:listitem="@layout/fruit_item" />
+
     </LinearLayout>
 
 </ScrollView>

@@ -5,7 +5,12 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
+import androidx.annotation.NonNull;
+import androidx.annotation.Nullable;
 import androidx.fragment.app.Fragment;
+import androidx.lifecycle.ViewModelProvider;
+import androidx.recyclerview.widget.GridLayoutManager;
+import androidx.recyclerview.widget.RecyclerView;
 
 /**
  * A simple {@link Fragment} subclass.
@@ -59,5 +64,21 @@ public class likes extends Fragment {
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
         return inflater.inflate(R.layout.fragment_likes, container, false);
+
+    }
+
+    @Override
+    public void onViewCreated(@NonNull View view, @Nullable Bundle savedInstanceState) {
+        super.onViewCreated(view, savedInstanceState);
+
+        RecyclerView recyclerView = view.findViewById(R.id.recyclerview);
+        final fruitListAdapter adapter = new fruitListAdapter(view.getContext());
+        adapter.setHasStableIds(true);
+        recyclerView.setAdapter(adapter);
+        recyclerView.setLayoutManager(new GridLayoutManager(view.getContext(), 2));
+
+        MainActivity.fruitViewModel = new ViewModelProvider(this).get(fruitViewModel.class);
+
+        MainActivity.fruitViewModel.getLikedFruits().observe(getViewLifecycleOwner(), adapter::setFruits);
     }
 }

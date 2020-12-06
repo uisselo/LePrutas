@@ -57,6 +57,16 @@ public abstract class fruitDatabase extends RoomDatabase {
                 );
                 dao.insert(Roy);
 
+                fruit earl = new fruit(
+                        R.drawable.durian,
+                        "earl",
+                        "earlsseus escandalus",
+                        "periodism",
+                        "???",
+                        "i like my dicc"
+                );
+                dao.insert(earl);
+
             });
         }
     };

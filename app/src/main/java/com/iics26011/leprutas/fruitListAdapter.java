@@ -2,6 +2,7 @@ package com.iics26011.leprutas;
 
 import android.annotation.SuppressLint;
 import android.content.Context;
+import android.content.Intent;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -10,6 +11,8 @@ import android.widget.TextView;
 
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
+
+import com.google.android.material.card.MaterialCardView;
 
 import java.util.List;
 
@@ -41,6 +44,11 @@ public class fruitListAdapter extends RecyclerView.Adapter<fruitListAdapter.frui
         fruit current = fruits.get(position);
         holder.fruitName.setText(current.getName());
         holder.fruitThumbnail.setImageDrawable(context.getDrawable(current.getImage()));
+        holder.cardView.setOnClickListener(view -> {
+            Intent i = new Intent(context, fruitPage.class);
+            i.putExtra("fruit", current);
+            context.startActivity(i);
+        });
     }
 
     @Override
@@ -51,11 +59,13 @@ public class fruitListAdapter extends RecyclerView.Adapter<fruitListAdapter.frui
     public static class fruitViewHolder extends RecyclerView.ViewHolder {
         final ImageView fruitThumbnail;
         final TextView fruitName;
+        final MaterialCardView cardView;
 
         public fruitViewHolder(@NonNull View itemView) {
             super(itemView);
             fruitThumbnail = itemView.findViewById(R.id.fruitThumbnail);
             fruitName = itemView.findViewById(R.id.fruitName);
+            cardView = itemView.findViewById(R.id.card);
         }
     }
 }

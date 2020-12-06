@@ -3,8 +3,11 @@ package com.iics26011.leprutas;
 import androidx.room.Entity;
 import androidx.room.PrimaryKey;
 
+import java.io.Serializable;
+import java.util.Set;
+
 @Entity(tableName = "fruit_table")
-public class fruit {
+public class fruit implements Serializable {
 
     @PrimaryKey(autoGenerate = true)
     private int id;
