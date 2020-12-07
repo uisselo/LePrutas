@@ -58,15 +58,15 @@ public abstract class fruitDatabase extends RoomDatabase {
                 fruit Mango = new fruit();
                 Mango.setImage(R.drawable.mango);
                 Mango.setName("Mango");
-                Mango.setSciName("Durio zibethinus");
-                Mango.setDesc("The Durian fruit is usually large (up to one foot long) with a spiky, hard exterior, custard-like flesh, large seeds, and a strong odor. Durian fruit is usually available in several countries, especially in Southeast Asia  and is regarded as one of the healthiest fruits.");
-                Mango.setHb1("May improve Digestive Health");
-                Mango.setHb2("May help prevent cardiovascular diseases");
-                Mango.setHb3("May help maintain blood sugar levels");
-                Mango.setHb4("May help regulate blood pressure levels");
-                Mango.setHb5("May help delay aging");
-                Mango.setTrv1("Known as the King of the Fruits");
-                Mango.setTrv2("Banned in airplanes, hotels, and public places because of its pungent smell");
+                Mango.setSciName("Mangifera indica");
+                Mango.setDesc("Mango trees  are drupes that cary in size and shape with shades of red and yellow or dull green. The fruit can be oval, rount, heart-shaped, kidney-shaped, or long and slender. It has single flat, large seed with a surrounding fleshy layer");
+                Mango.setHb1("May support cardiovascular health");
+                Mango.setHb2("May improve digestive health");
+                Mango.setHb3("May support eye health");
+                Mango.setHb4("May improve hair and skin health");
+                Mango.setHb5("May help lower your risk of certain cancers");
+                Mango.setTrv1("Mango tree is a flowering tree. The flowers of this tree are small and have 5 petals. The flowers are mostly white. However, don’t be surprised if you see pink flowers");
+                Mango.setTrv2("The color of a mango fruit is never an indicator of being ripe. Even a green mango can be ripe.");
                 dao.insert(Mango);
 
                 fruit DragonFruit = new fruit();
