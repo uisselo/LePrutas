@@ -39,7 +39,7 @@
             android:layout_height="wrap_content"
             android:layout_marginHorizontal="30dp"
             android:layout_marginTop="20dp"
-            android:text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque convallis lectus at ante maximus consectetur. Cras in nulla tincidunt, fermentum."
+            android:text="The application that the group will accomplish is a Fruit application. It will showcase nine (9) different varieties of fruits that will be displayed using an image button that when pressed, will open the selected fruit’s information activity page which presents the following: Picture, Scientific name, Health Benefits, Description, and Trivia about the fruit."
             android:textColor="#080808"
             android:textSize="18sp" />
 
@@ -96,7 +96,7 @@
                     <TextView
                         android:layout_width="fill_parent"
                         android:layout_height="fill_parent"
-                        android:text="21 year old on her third year of college, taking up BS Information Technology in University of Santo Tomas."
+                        android:text="21 year old on his third year of college, taking up BS Information Technology in University of Santo Tomas."
                         android:textColor="#080808"
                         android:textSize="13sp" />
 
@@ -188,7 +188,7 @@
                     <TextView
                         android:layout_width="fill_parent"
                         android:layout_height="fill_parent"
-                        android:text="21 year old on her third year of college, taking up BS Information Technology in University of Santo Tomas."
+                        android:text="21 year old on their third year of college, taking up BS Information Technology in University of Santo Tomas."
                         android:textColor="#080808"
                         android:textSize="13sp" />
 
