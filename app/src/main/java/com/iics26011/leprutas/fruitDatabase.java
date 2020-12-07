@@ -129,7 +129,7 @@ public abstract class fruitDatabase extends RoomDatabase {
                 Jackfruit.setImage(R.drawable.jackfruit);
                 Jackfruit.setName("Jackfruit");
                 Jackfruit.setSciName("Artocarpus heterophyllus");
-                Jackfruit.setDesc("Jackfruit has a mild-sweet flavour, it also has a pungent odour, which has been compared to that of limburger cheese; for this reason, the fruit is banned from public transportation in some places. The custard like pulp can be eaten at various stages of ripeness and is used in a variety of sweet and savory dishes. THe seeds may also be eaten if roasted.");
+                Jackfruit.setDesc("Jackfruit has a mild-sweet flavour, it also has a pungent odour, which has been compared to that of limburger cheese; for this reason, the fruit is banned from public transportation in some places. The custard like pulp can be eaten at various stages of ripeness and is used in a variety of sweet and savory dishes. The seeds may also be eaten if roasted.");
                 Jackfruit.setHb1("Helps anti-ulcer properties");
                 Jackfruit.setHb2("It may help in blood sugar control");
                 Jackfruit.setHb3("May help boost immune system");
