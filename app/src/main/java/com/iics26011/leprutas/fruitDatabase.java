@@ -37,21 +37,21 @@ public abstract class fruitDatabase extends RoomDatabase {
                 Durian.setHb3("May help maintain blood sugar levels");
                 Durian.setHb4("May help regulate blood pressure levels");
                 Durian.setHb5("May help delay aging");
-                Durian.setTrv1("Known as the King of the Fruits");
-                Durian.setTrv2("Banned in airplanes, hotels, and public places because of its pungent smell");
+                Durian.setTrv1("Known as the King of the Fruits.");
+                Durian.setTrv2("Banned in airplanes, hotels, and public places because of its pungent smell.");
                 dao.insert(Durian);
 
                 fruit Mangosteen = new fruit();
                 Mangosteen.setImage(R.drawable.mangosteen);
                 Mangosteen.setName("Mangosteen");
                 Mangosteen.setSciName("Garcinia mangostana");
-                Mangosteen.setDesc("Mangosteen is an exotic tropical fruit with a slight sweetness and sourness combination. Has a purple color on its skin and a white fleshy flesh. This fruit usually comes from Southeast Asia and can be also found in other tropical regions around the world. \n");
+                Mangosteen.setDesc("Mangosteen is an exotic tropical fruit with a slight sweetness and sourness combination. Has a purple color on its skin and a white fleshy flesh. This fruit usually comes from Southeast Asia and can be also found in other tropical regions around the world.");
                 Mangosteen.setHb1("Good for Digestive Health");
                 Mangosteen.setHb2("May promote weight loss");
                 Mangosteen.setHb3("Good for Cardiovascular Health");
                 Mangosteen.setHb4("Good for mental health");
                 Mangosteen.setHb5("Helps maintain healthy skin");
-                Mangosteen.setTrv1("Known as the Queen of the Fruits");
+                Mangosteen.setTrv1("Known as the Queen of the Fruits.");
                 Mangosteen.setTrv2("Referred to as the purple mangosteen because of the deep purple color its rind develops when it ripes. This is in contrast to the bright white inner juicy flesh.");
                 dao.insert(Mangosteen);
 
@@ -59,13 +59,13 @@ public abstract class fruitDatabase extends RoomDatabase {
                 Mango.setImage(R.drawable.mango);
                 Mango.setName("Mango");
                 Mango.setSciName("Mangifera indica");
-                Mango.setDesc("Mango trees  are drupes that cary in size and shape with shades of red and yellow or dull green. The fruit can be oval, rount, heart-shaped, kidney-shaped, or long and slender. It has single flat, large seed with a surrounding fleshy layer");
+                Mango.setDesc("Mango trees  are drupes that cary in size and shape with shades of red and yellow or dull green. The fruit can be oval, rount, heart-shaped, kidney-shaped, or long and slender. It has single flat, large seed with a surrounding fleshy layer.");
                 Mango.setHb1("May support cardiovascular health");
                 Mango.setHb2("May improve digestive health");
                 Mango.setHb3("May support eye health");
                 Mango.setHb4("May improve hair and skin health");
                 Mango.setHb5("May help lower your risk of certain cancers");
-                Mango.setTrv1("Mango tree is a flowering tree. The flowers of this tree are small and have 5 petals. The flowers are mostly white. However, don’t be surprised if you see pink flowers");
+                Mango.setTrv1("Mango tree is a flowering tree. The flowers of this tree are small and have 5 petals. The flowers are mostly white. However, don’t be surprised if you see pink flowers.");
                 Mango.setTrv2("The color of a mango fruit is never an indicator of being ripe. Even a green mango can be ripe.");
                 dao.insert(Mango);
 
@@ -107,7 +107,7 @@ public abstract class fruitDatabase extends RoomDatabase {
                 Papaya.setHb3("May fight inflammation");
                 Papaya.setHb4("May improve cardiovascular health");
                 Papaya.setHb5("Has anticancer properties");
-                Papaya.setTrv1("The Hawaiian varieties are the papayas commonly found in supermarkets. The flesh is bright orange or pinkish, depending on variety, with small black seeds clustered in the center");
+                Papaya.setTrv1("The Hawaiian varieties are the papayas commonly found in supermarkets. The flesh is bright orange or pinkish, depending on variety, with small black seeds clustered in the center.");
                 Papaya.setTrv2("Gaining in popularity among tropical fruits worldwide, papaya is now ranked fourth in total tropical fruit production after bananas, oranges, and mango.");
                 dao.insert(Papaya);
 
@@ -130,7 +130,7 @@ public abstract class fruitDatabase extends RoomDatabase {
                 Jackfruit.setName("Jackfruit");
                 Jackfruit.setSciName("Artocarpus heterophyllus");
                 Jackfruit.setDesc("Jackfruit has a mild-sweet flavour, it also has a pungent odour, which has been compared to that of limburger cheese; for this reason, the fruit is banned from public transportation in some places. The custard like pulp can be eaten at various stages of ripeness and is used in a variety of sweet and savory dishes. THe seeds may also be eaten if roasted.");
-                Jackfruit.setHb1(" Helps anti-ulcer properties");
+                Jackfruit.setHb1("Helps anti-ulcer properties");
                 Jackfruit.setHb2("It may help in blood sugar control");
                 Jackfruit.setHb3("May help boost immune system");
                 Jackfruit.setHb4("May help cardiovascular health");
@@ -149,7 +149,7 @@ public abstract class fruitDatabase extends RoomDatabase {
                 Rambutan.setHb3("Works as an aphrodisiac");
                 Rambutan.setHb4("Promotes scalp and hair health");
                 Rambutan.setHb5("Enhances skin health");
-                Rambutan.setTrv1("Rambutan plant can reach as much as 66 feet in height");
+                Rambutan.setTrv1("Rambutan plant can reach as much as 66 feet in height.");
                 Rambutan.setTrv2("Rambutan produces fruit twice a year. And each plant/tree can produce as many as 6,000 fruits per season.");
                 dao.insert(Rambutan);
             });
